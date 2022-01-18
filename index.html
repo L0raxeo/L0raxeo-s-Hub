@@ -7,8 +7,20 @@
         <title>L0raxeo's Pub</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="icon" href="/images/icon.png">
+        <style>
+            .thumbnail__box {
+                display: grid;
+                height: 100%;
+            }
+
+            .thumbnail {
+                max-width: 100%;
+                max-height: 100vh;
+                margin: auto;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-color: white;">
         <nav class="navbar">
             <div class="navbar__container">
                 <a href="" id="navbar__logo">L0raxeo's Pub</a>
@@ -25,7 +37,7 @@
                     </li>
                     <li class="navbar__item">
                         <a href="/projects.html" class="navbar__links">
-                            Projects
+                            Featured Projects
                         </a>
                     </li>
                     <li class="navbar__item">
@@ -33,7 +45,7 @@
                             Youtube
                         </a>
                     </li>
-                    <li class="navbar__btn">
+                    <li class="navbar__item">
                         <a href="https://github.com/L0raxeo" class="navbar__links" target="blank">
                             GitHub
                         </a>
@@ -42,5 +54,20 @@
             </div>
         </nav>
         <script src="app.js"></script>
+        <div class="thumbnail__box">
+            <center>
+                <img class="thumbnail" src="images/thumbnail.png" alt="">
+            </center>
+        </div>
+        <center>
+            <nav class="bio">
+                <div class="bio__title">
+                    <h1>About Me</h1>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+        </center>
     </body>
 </html>
