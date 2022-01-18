@@ -103,16 +103,16 @@ html, body {
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: darkolivegreen;
     }
 
     .navbar__menu.active {
-        background: rgb(61, 77, 34);
+        background: rgb(108, 129, 70);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 70vh;
+        height: 325px;
+        max-height: 325px;
         font-size: 1.6rem;
     }
 
@@ -133,7 +133,7 @@ html, body {
     }
 
     .navbar__links {
-        text-align: center;
+        text-align: end;
         padding: 2rem;
         width: 100%;
         display: table;
