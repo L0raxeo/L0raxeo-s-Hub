@@ -28,7 +28,7 @@ html, body {
     height: 80px;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 50px;
 }
@@ -107,7 +107,7 @@ html, body {
     }
 
     .navbar__menu.active {
-        background: darkolivegreen;
+        background: rgb(61, 77, 34);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
